@@ -1,0 +1,5 @@
+<launch>
+	<node name="clock_anticlock" pkg="engrave" type="engrave_cw.py" output="screen"/>
+	<node name="streamgcode_subscriber_homing" pkg="engrave" type="streamgcode_subscriber_homing.py" output="screen"/>
+</launch>
+

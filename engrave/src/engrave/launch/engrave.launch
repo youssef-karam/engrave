@@ -1,0 +1,5 @@
+<launch>
+	<node name="engrave_publisher" pkg="engrave" type="engrave_publisher.py" output="screen"/>
+	<node name="streamgcode_subscriber" pkg="engrave" type="streamgcode_subscriber.py" output="screen"/>
+</launch>
+
